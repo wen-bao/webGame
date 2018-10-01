@@ -12,9 +12,9 @@
 
 # 游戏部分界面展示
 
-![开始界面](C:\Users\wenbao\Desktop\bb\bb.JPG)
+![开始界面](bb.JPG)
 
-![结束界面](C:\Users\wenbao\Desktop\bb\bb2.JPG)
+![结束界面](bb2.JPG)
 
 # 主要功能实现
 
