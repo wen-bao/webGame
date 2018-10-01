@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>BB弹</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src = "js/jquery-1.11.0.js"></script>
+		<META HTTP-EQUIV="pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Cache-Control" CONTEST="no-cache, must-revalidate">
+		<META HTTP-EQUIV="expires" CONTENT="0">
+	</head>
+	<body>
+		<canvas id = "canvasgame" width = "800px" height = "900px"></canvas>
+		<script type="text/javascript" src = "js/game.js"></script>
+		<div id = "info">
+			<div class="ballNum">球个数：1</div>
+			<div class="score">分 数：0</div>
+		</div>
+		<div id = "hero" style="OVERFLOW-Y: auto; OVERFLOW-X:hidden;">
+			<div class="rating"></div>
+		</div>
+		<audio id="bg" src="img/bg.mp3" autoplay controls loop></audio>
+		<div id = "heroshow">
+			<p>大侠留步，您挑战成功，请留下ID</p>
+			<input type="text" id = "username"/>
+			<button class = "button">确定</button>
+		</div>
+		<div id = "gameover">
+			<p>很遗憾，游戏结束，目前分数不能进入排名</p>
+			<button class = "restart" onclick="init()">再来一次</div>
+		</div>
+		<div id = "welcome">
+			<p class = "txt">欢迎来到游戏，本游戏仅供学习娱乐，非商业性或非盈利性</p>
+			<p class = "choose">是否播放背景音乐?</p>
+			<button class = "yes">Yes</button>
+			<button class = "no">No</button>
+		</div>
+	</body>
+</html>

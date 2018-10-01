@@ -1,0 +1,179 @@
+#canvasgame {
+  position: absolute;
+  left: 50%;
+  margin-left: -400px;
+  top:20px;
+  background: black;
+}
+
+#info {
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  left:200px;
+  top:50px;
+  background: rgba(125, 125, 125, 0.5);
+  font-size: 20px;
+}
+
+#info .ballNum {
+  width: 250px;
+  height: 70px;
+  margin: 30px 50px;
+}
+
+#info .score {
+  width: 250px;
+  height: 70px;
+  margin: -40px 50px;
+}
+
+#bg {
+	display: none;
+}
+
+#hero {
+	position: absolute;
+	background: rgba(25, 25, 25, 0.5);
+	top: 250px;
+	left:200px;
+	width: 250px;
+	height: 500px;
+}
+
+#hero .rating {
+	position: absolute;
+	font-size: 40px;
+	text-align: center;
+	left: 150px;
+	margin-top: -60px;
+	width: 60px;
+	height: 60px;
+	background: yellowgreen;
+	overflow: hidden;
+}
+
+#heroshow {
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -300px;
+	margin-top: -200px;
+	width: 600px;
+	height: 400px;
+	background: darkslategray;
+	display: none;
+}
+
+#heroshow p {
+	font-size: 40px;
+	text-align: center;
+}
+
+#heroshow input {
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -25px;
+	width: 300px;
+	height: 50px;
+	font-size: 40px;
+}
+
+#heroshow .button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -70px;
+	margin-top: 70px;
+	width: 150px;
+	height: 80px;
+	font-size: 60px;
+	background: burlywood;
+	
+	display:flex;
+  justify-content:center;
+}
+
+#gameover {
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -250px;
+	margin-top: -150px;
+	width: 500px;
+	height: 300px;
+	background: darkslategray;
+	display: none;
+}
+
+#gameover p {
+	font-size: 40px;
+	text-align: center;
+}
+
+#gameover .restart {
+	font-size: 60px;
+	text-align: center;
+	background: burlywood;
+	width: 300px;
+	height: 100px;
+	margin-left: 100px;
+	display:flex;
+  justify-content:center;
+}
+
+
+#welcome {
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -250px;
+	margin-top: -150px;
+	width: 500px;
+	height: 300px;
+	background: darkslategray;
+	display: none;
+}
+
+#welcome .txt {
+	color: darkblue;
+	font-size: 30px;
+	text-align: center;
+}
+
+#welcome .choose {
+	font-size:40px;
+	text-align: center;
+	
+}
+
+#welcome .yes {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: 70px;
+	width: 100px;
+	height: 60px;
+	font-size: 40px;
+	background: burlywood;
+	
+	display:flex;
+  justify-content:center;
+}
+
+#welcome .no {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: 50px;
+	margin-top: 70px;
+	width: 100px;
+	height: 60px;
+	font-size: 40px;
+	background: burlywood;
+	
+	display:flex;
+  justify-content:center;
+}
