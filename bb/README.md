@@ -12,13 +12,13 @@
 
 # 游戏部分界面展示
 
-![开始界面](C:\Users\wenbao\Desktop\bb\bb.JPG)
+![开始界面](bb.JPG)
 
-![结束界面](C:\Users\wenbao\Desktop\bb\bb2.JPG)
+![结束界面](bb2.JPG)
 
 # 主要功能实现
 
-##1、排名实现
+## 1、排名实现
 
 ​	利用js读取json加载排名，php更新json数据
 
